@@ -1,0 +1,27 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "./node_modules/.bin/webdriver-manager update",
+    "test":"./node_modules/.bin/protractor conf.js",
+    "runtest":"npm run test"
+  },
+  "author": "keshav",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "typescript": "^3.3.3333",
+    "jasmine": "^3.3.1",
+    "protractor-cucumber-framework": "^6.1.1",
+    "cucumber": "^5.1.0",
+    "ts-node": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "@types/jasmine": "^3.3.9",
+    "@types/cucumber": "^4.0.5",
+    "@types/jasminewd2": "^2.0.6"
+  }
+}
